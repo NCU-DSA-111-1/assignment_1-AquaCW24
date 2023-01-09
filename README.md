@@ -27,4 +27,4 @@ gcc main.c -o main.out
 3. [https://www.geeksforgeeks.org/implementation-of-artificial-neural-network-for-xor-logic-gate-with-2-bit-binary-input/amp/]
 4. [https://towardsdatascience.com/simple-neural-network-implementation-in-c-663f51447547]
 5. [https://medium.com/analytics-vidhya/building-neural-network-framework-in-c-using-backpropagation-8ad589a0752d]
-6. [http://neuralnetworksanddeeplearning.com/chap2.html]
+6. http://neuralnetworksanddeeplearning.com/chap2.html

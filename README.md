@@ -17,7 +17,20 @@ make
 ## Operation
 
 ```
-./bin/main.out
+./bin/main
+```
+
+## Result
+
+```
+epoch 1000, sample 0, loss 0.000000
+epoch 1000, sample 1, loss 0.000000
+epoch 1000, sample 2, loss 0.000000
+epoch 1000, sample 3, loss 0.000000
+input: (0.000, 0.000) output: (-0.000) ground_truth: (0.000)
+input: (0.000, 1.000) output: (1.000) ground_truth: (1.000)
+input: (1.000, 0.000) output: (1.000) ground_truth: (1.000)
+input: (1.000, 1.000) output: (0.000) ground_truth: (0.000)
 ```
 
 ## Reference

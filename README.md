@@ -11,13 +11,13 @@ This project shows that a XOR neural network simulation using the back-propagati
 ## Compile
 
 ```
-gcc main.c -o main.out
+make
 ```
 
 ## Operation
 
 ```
-./main.out
+./bin/main.out
 ```
 
 ## Reference

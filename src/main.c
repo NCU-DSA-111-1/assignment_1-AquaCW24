@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
+#define EPOCH 1000
 // input_layer, hidden_layers..., output_layer
 int sizes[] = {2, 3, 4, 3, 1};
 int layers = sizeof(sizes) / sizeof(int);
@@ -167,7 +169,7 @@ int main() {
     net.biases = alloc_biases();
     net.weights = alloc_weights();
 
-    for (int epoch = 0; epoch <= 500; ++epoch) {
+    for (int epoch = 0; epoch <= EPOCH; ++epoch) {
         for (int n = 0; n < 4; ++n) {
             forward(input[n], output, &net, &cache);
             if (epoch % 5 == 0)
